@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS</title>
+    
+
+    <!-- CSS no head-->
+    <!--<style>
+        body {
+            padding-bottom: 500px;
+        }
+    </style> -->
+
+
+    <!-- Integração com o CSS-->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="./index.html">Página principal</a></li>
+            <li><a href="./tabela1.html">Página tabela</a></li>
+            <li><a href="./formulario1.html">Página formulário</a></li>
+        </ul>
+    </nav>
+    
+    
+    
+    
+    
+    
+    <!-- COMENTÁRIO EM HTML --> 
+    <!-- títulos -->
+    <h1>Título mais importante da página</h1>
+    <h2>sub-título</h2>
+    <h3>sub-título</h3>
+    <h4>sub-título</h4>
+    <h5>sub-título</h5>
+    <h6>sub-título</h6>
+
+    <!-- Paragrafos -->
+    <p>Algum texto qualquer 
+        <br> <!--Quebra de linha-->
+        <br>
+        <br>
+
+    </p>
+
+    <!--LINKS-->
+    <a href="https://www.google.com" >Google</a>
+    <a href="https://www.google.com" target="_blank">Google nova aba</a>
+
+    <!-- QUEBRAS DE LINHAS -->
+    <h2>Titulo</h2>
+    <p>Algum texto <br> qualquer</p>
+    <hr>
+    <h2>Titulo</h2>
+    <p>Algum texto qualquer</p>
+
+    <!-- Imagem -->
+    <!-- Imagem que veio de um link externo -->
+    <img width="369px" src="https://e7.pngegg.com/pngimages/185/866/png-clipart-html-logo-html-web-design-scalable-graphics-world-wide-web-markup-language-html5-icon-hd-miscellaneous-angle.png" alt="">
+
+    <!-- Imagem de dentro do projeto-->
+    <img width="369px" src="./assets/logo.png" alt="Logo da linguagem da marcação HTML">   
+    <hr>
+    
+    <!-- Formulários -->
+    <form>
+        <h2>Formulários</h2>
+        <label for="">Nome</label>
+        <input type="text" placeholder="Ana Carolina">
+      
+        <label>CPF</label>
+        <input type="text" placeholder="000.000.000-00">
+
+        <label>Email</label>
+        <input type="email" placeholder="analinda@gmail.com">
+
+        <label>Telefone</label>
+        <input type="number" placeholder="(00)0000-0000">
+
+        <button type="submit">ENVIAR</button>
+        <button type="reset">LIMPAR</button>
+    </form>
+    <hr>
+
+    <!-- Listas -->
+
+
+    <!-- Lista não ordenada-->
+    <ul>
+        <li>Gloss</li>
+        <li>Bolsas</li>
+        <li>LipBalm</li>
+        <li>Xoxo</li>
+        
+
+    </ul>
+
+
+    <!--Lista ordenada-->
+    <ol>
+        <li>Comprar</li>
+        <li>Gastar dinheiro</li>
+        <li>Ir ao shopping</li>
+    </ol>
+
+        <!-- Tabelas-->
+
+    <table border="1">
+    <thead>
+        <tr>
+            <th>Nome:</th>
+            <th>ID:</th>
+            <th>Email:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ana</td>
+            <td>1</td>
+            <td>anac@gmail.com</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>2</td>
+            <td>joaog@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Blair</td>
+            <td>3</td>
+            <td>bwaldorf@gmail.com</td>
+        </tr>
+    </tbody>
+
+    </table>
+    <hr>
+
+    <!-- DIV e SPAN -->
+
+    <div>
+        <h3>Gloss</h3>
+        <p>R$259,90</p>
+        <a href="#">Comprar</a>
+    </div>
+    <div>
+        <h3>Bolsa</h3>
+        <h3>R$16520</h3>
+        <a href="#">Comprar</a>
+    </div>
+    <p> EU SOU <span style="color: hotpink;">LINDAAAAA</span></p>
+
+    <!-- CSS Inline-->
+
+    <h3 style="color: deeppink;">Oiiiiiiiiiiiii</h3>
+
+    <hr>
+
+    <!-- Elementos BLOCK e Inline -->
+   
+    <!-- Block -->
+    <p>Ana</p>
+    <p>Carolina</p>
+    
+    <!-- Inline -->
+    <span>Algum texto</span>
+    <span>Outro texto</span>
+ 
+    <hr>
+
+    <!--Tags HTMLS-->
+    <nav></nav>
+    <header> </header>
+    <main></main>
+    <aside></aside>
+    <section></section>
+    <footer></footer>
+
+    <!-- Background -->
+
+    <p class="fundo-rosa">Algum texto</p>
+
+    <span class="fundo-branco">Algum texto</span>
+
+    
+    <!-- 2 elementos, 1 regra -->
+    <p class="texto-pequeno">Algum elemento</p>
+    <p id="meu-paragrafo">Outro texto</p>
+
+
+    <!--Background Image-->
+
+    <div id="minha-div">
+        <h3>Testando imagem de background</h3>
+    </div>
+
+    <hr>
+
+
+    <!-- Box Model -->
+
+
+    <!-- Altura e Largura -->
+    <div id="altura-largura">
+        <p>Testando Altura e Largura</p>
+    </div>
+
+    <!-- Padding (ESPAÇAMENTO)-->
+
+    <div id="div-espacamento">
+        <p>Testando ESPAÇAMENTO</p>
+    </div>
+    
+    <!-- Margin -->
+    <div id="div-margem">
+        <p>Testando Margem</p>
+    </div>
+
+
+    <!-- Borda -->
+    <div id="div-borda">
+        <p>Testando borda</p>
+    </div>
+ 
+    <hr>
+
+    <!-- Alinhamento de texto -->
+    <div>
+        <p class="meu-texto"> Testando Alinhamento</p>
+    </div>
+
+    
+
+</body>
+</html>
