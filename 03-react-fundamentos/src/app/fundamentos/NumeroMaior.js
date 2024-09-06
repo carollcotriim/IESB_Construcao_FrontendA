@@ -1,12 +1,21 @@
+export default function NumeroMaior(props){
 
-
-export default function NumeroMaior() {
+    const getMaior = () => {
+        if(props.numA > props.numB) {
+            return props.numA
+        }
+        if(props.numB > props.numA) {
+            return props.numB
+        }
+    }
 
     return (
         <>
-        <h2>Componente Número maior</h2>
-        <p>O número maior é:</p>
-        <p>Propriedades Recebidas: {propriedades.teste}</p>
+            <h2>Componente Número Maior</h2>
+            <p>Numeros recebidos: {props.numA} - {props.numB}</p>
+            <p>O número maior é: {getMaior()}</p>
         </>
     )
+
+
 }
